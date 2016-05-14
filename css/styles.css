@@ -109,13 +109,13 @@ p.updates {
 }
 
 #blocks p {
-	color: gray;
+	color: #fff;
 	font-size: .95rem;
 }
 
 #blocks a {
-	color: black;
-	border-bottom: 1px dotted black;
+	color: #fff;
+	border-bottom: 1px dotted #fff;
 }
 
 
@@ -123,7 +123,17 @@ h4,
 h4 a {
 	color: #FFF;
   font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
 
+
+#register p,
+#register a {
+	color: #FFF;
+	font-size: .85rem;
+}
+
+#register a {
+	border-bottom: 1px dotted #fff;	
 }
 
 /* BLOCKS - Newsletter */
