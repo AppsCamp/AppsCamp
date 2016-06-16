@@ -1,10 +1,6 @@
 /* Apps Camp */
 
-body {
-	margin: 0;
-	padding: 1em;
-	background-color: teal;
-}
+
 	
 
 p {
@@ -101,6 +97,8 @@ p.updates {
 
 
 
+
+
 /* BLOCKS */
 
 #blocks {
@@ -173,4 +171,26 @@ h4.block-title {
 	margin: 0;
 	padding-left: .5em;
 	text-align: center;
+}
+
+
+
+.row.white {
+	background-color: white;
+	padding: 1.5em;
+}
+
+.row.white p,
+.row.white a {
+  color: teal;
+  font-size: .95rem;
+	text-align: center;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#sessions {
+  background-color: teal;
 }
